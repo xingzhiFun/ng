@@ -1,0 +1,36 @@
+/* me */
+.me{
+	overflow: auto;
+	section{
+		overflow: auto;
+		img{
+			height: 1.5rem;
+			width: 1.5rem;
+			border-radius: 50%;
+			margin-top: 2rem;
+		}
+		span{
+			height: 0.8rem;
+			line-height: 0.8rem;
+			padding: 0.2rem 0;
+		}
+		a{
+			height: 2rem;
+			line-height: 2rem;
+			width: 44%;
+			margin-left:4%; 
+			float: left;
+			margin-top: 0.5rem;
+			color: @defaultColor;
+			background: @headBgColor;
+			text-decoration: none;
+			&.logout{
+				width: 92%;
+				height: 0.8rem;
+				line-height: 0.8rem;
+				margin-top: 0.4rem;
+				background: @dangerColor;
+			}
+		}
+	}
+}

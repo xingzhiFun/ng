@@ -1,0 +1,74 @@
+/* login */
+.login{
+	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	form{
+		margin-top: 7.0rem;
+		section{
+			width: 75%;
+			height: 0.9rem;
+			line-height: 0.9rem;
+			background: @formBgColor;
+			input{
+				height: 100%;
+				padding-left: 0.2rem;
+				border: none;
+				background: transparent;
+				color: @defaultColor;
+				outline: none;
+				&::-webkit-input-placeholder{
+					color: @defaultColor;
+				}	
+			}
+			&:first-child{
+				border-bottom: thin solid @defaultColor;
+			}
+			span{
+				background-color: @iconBgColor;
+				background-repeat: no-repeat;
+				height: 0.8rem;
+				width: 1rem;
+				background-position: 0.2rem 0.08rem;
+				&.acount{
+					background-image: url(../images/account.png);			
+				}
+				&.lock{
+					background-image: url(../images/lock.png);
+				}
+			}
+		}
+		.ng-invalid{
+			&+span{
+				width: auto;
+				text-align: right;
+				font-size: 0.32rem;
+				color: @dangerColor;
+				background: transparent;
+				position: absolute;
+				right: 0;
+			}
+		}
+		a{
+			height: 0.8rem;
+			line-height: 0.8rem;
+			width: 75%;
+			&.login-btn{
+				margin-top: 1rem;
+				background: @headBgColor;
+				color: @defaultColor;
+			}
+			&.register-btn{
+				margin-top: 0.4rem;
+				box-sizing: border-box;
+				background: @btnBgColor;
+				color: @headBgColor;
+				border:thin solid @headBgColor;
+			}
+		}
+	}
+}

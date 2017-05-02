@@ -1,0 +1,32 @@
+/* header */
+.head{
+    .arrow{
+        span{
+            &:before{
+                content: "";
+                border: 0.25rem solid transparent;
+                border-right:0.25rem solid @defaultColor;
+                width: 0;
+                height: 0;
+                position: absolute;
+                left: 0rem;
+                top: 50%;
+                margin-top: -0.25rem;
+            }
+            &:after{
+                content: "";
+                border: 0.25rem solid transparent;
+                border-right:0.25rem solid @headBgColor;
+                width: 0;
+                height: 0;
+                position: absolute;
+                left: 0.04rem;
+                top: 50%;
+                margin-top: -0.25rem;
+            }
+        }
+    }
+    .title{
+        color:@defaultColor;
+    }
+}

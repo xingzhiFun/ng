@@ -1,0 +1,50 @@
+/* footer */
+.footerBg{
+    height: 1rem;
+}
+.foot{
+	bottom: 0;
+	height: 1rem;
+	line-height: 1rem;
+	border-top:thin solid @lineColor;
+	background: @defaultColor;
+	.icon-document{
+		width: 0.44rem;
+		height: 0.44rem;
+		background-image: url("../images/icon1.png");
+		background-size:cover;
+	}
+	.icon-search{
+		width: 0.44rem;
+		height: 0.44rem;
+		background-image: url("../images/icon2.png");
+		background-size:cover;
+	}
+	.icon-my{
+		width: 0.44rem;
+		height: 0.44rem;
+		background-image: url("../images/icon3.png");
+		background-size:cover;
+	}
+	li{
+		width: 33.333%;
+		color: @muteColor;
+		&.active{
+			background: @highlightBgColor;
+			color: @highlightColor;
+			.icon-document{
+				background-image: url("../images/icon1_g.png");
+			}
+			.icon-search{
+                background-image: url("../images/icon2_g.png");
+			}
+			.icon-my{
+                background-image: url("../images/icon3_g.png");
+			}
+		}
+		i{
+			margin-right: 0.1rem;
+			top: 0.11rem;
+		}
+	}
+}

@@ -1,0 +1,44 @@
+/* positionList */
+.position-list{
+	overflow: auto;
+	background: @defaultColor;
+	.item{
+		overflow: auto;
+		padding: 0.1rem 0.2rem;
+		border-bottom: thin solid @listLineColor;
+		.logo{
+			height: 2rem;
+			width: 2rem;
+			margin-right: 0.2rem;
+		}
+		.title{
+			margin:0;
+			height: 0.6rem;
+			line-height: 0.6rem;
+			margin-bottom: 0.2rem;
+		}
+		.text{
+			margin: 0;
+			height: 0.6rem;
+			line-height: 0.6rem;
+			overflow: hidden;
+			&.salary{
+				color: @dangerColor;
+			}
+		}
+		.icon{
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			height: 0.76rem;
+			width: 0.76rem;
+			right: 0.2rem;
+			top: 0.62rem;
+			&.star{
+				background-image: url(../images/star.png);
+			}
+			&.star-active{
+				background-image: url(../images/star-active.png);
+			}
+		}
+	}
+}

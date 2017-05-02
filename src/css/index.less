@@ -1,0 +1,52 @@
+@import './template/head.less';
+@import './template/headBar.less';
+@import './search.less';
+@import './template/tab.less';
+@import './template/positionList.less';
+@import './position.less';
+@import './template/positionInfo.less';
+@import './template/positionClass.less';
+@import './template/company.less';
+@import './template/foot.less';
+@import './template/sheet.less';
+@import './login.less';
+@import './register.less';
+@import './me.less';
+
+
+/* default */
+html,body{
+	// height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: @bodyBgColor;
+}
+ul,p,input{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
+
+/* 淡入 */
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	animation-name: fade;
+}

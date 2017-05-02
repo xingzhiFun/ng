@@ -1,0 +1,46 @@
+/* positionClass */
+.position-class{
+    background: @defaultColor;
+    header{
+        height: 1.1rem;
+        line-height: 1.1rem;
+        padding: 0 0.2rem;
+        border-top: thin solid @lineColor;
+    }
+    section{
+        a{
+            height: 1rem;
+            line-height: 1rem;
+            background: @btnColor;
+            padding: 0 0.6rem;
+            border-radius: 0.5rem;
+            margin-left: 0.5rem;
+            margin-bottom: 0.2rem;
+            &.active{
+                background: @headBgColor;
+                color: @defaultColor;
+            }
+        }
+        ul{
+            overflow: auto; 
+            padding:0 0.2rem;
+            border-top: thin solid @lineColor;
+            li{
+                height: 1.6rem;
+                overflow: hidden;
+                p{
+                    height: 0.8rem;
+                    line-height: 0.8rem;
+                    overflow: hidden;
+                }
+                span{
+                    height: 0.6rem;
+                    line-height: 0.6rem;
+                    color: @dangerColor;
+                    right: 0;
+                    top: 0.5rem;
+                }
+            } 
+        }
+    }
+}

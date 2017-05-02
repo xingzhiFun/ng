@@ -1,0 +1,26 @@
+{
+  "name": "lagou",
+  "authors": [
+    "Eric Yang <yyc11227014@163.com>"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    "angularJs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "ui-router#^0.4.2",
+    "angular-cookies": "^1.6.4",
+    "angular-validation": "^1.4.3"
+  }
+}
