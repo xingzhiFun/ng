@@ -9,7 +9,7 @@
 
 run:
 1. download
-2. 'npm install'
-3. 'gulp'
+2. `npm install`
+3. `gulp`
 
 [demo](http://daceyu.com/static/ng/dist/index.html)
